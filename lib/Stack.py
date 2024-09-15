@@ -34,3 +34,14 @@ class Stack:
             return len(self.items) -self.items.index(target) -1
         else:
             return -1
+        
+stack = Stack([1,2,3,4]) 
+stack.push(3) 
+stack.pop()
+stack.peek()
+print(stack.items) 
+print(stack.limit)
+print(stack.isEmpty()) 
+print(stack.peek())  
+print(stack.size())  
+print(stack.full())
